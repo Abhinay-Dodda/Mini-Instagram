@@ -1,0 +1,36 @@
+/* src/index.css (Required for the assignment) */
+body {
+  margin: 0;
+  background-color: #fafafa;
+  color: #262626;
+  /* 1. Sets the required system font stack */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 2. This class will center the main content */
+.container {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background-color: #0095f6;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 9px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* 3. Adds the required visible hover state for buttons */
+button:hover {
+  background-color: #0077c6;
+}
+
+button:disabled {
+  background-color: #b2dffc;
+  cursor: not-allowed;
+}
